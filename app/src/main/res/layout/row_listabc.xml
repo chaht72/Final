@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listabcRowModel" type="com.saqibestates.app.modules.schedulecalendartwo.data.model.ListabcRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearDaterow"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearMonthpicker3"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_9pxv"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            <TextView android:ellipsize="end" android:gravity="start"
+                android:id="@+id/txtAbc"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="@{listabcRowModel.txtAbc}"
+                style="@style/txtInterregular16_5" tools:text="@string/lbl_jan"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearMonthpicker4"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_9pxv"
+            android:layout_marginStart="@dimen/_49pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            <TextView android:ellipsize="end" android:gravity="start"
+                android:id="@+id/txtAbcOne"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="@{listabcRowModel.txtAbcOne}"
+                style="@style/txtInterregular16_5" tools:text="@string/lbl_feb"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearMonthpicker"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_9pxv"
+            android:layout_marginStart="@dimen/_48pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_weight="0.27" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            <TextView android:ellipsize="end" android:gravity="start"
+                android:id="@+id/txtAbcTwo"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="@{listabcRowModel.txtAbcTwo}"
+                style="@style/txtInterregular16_5" tools:text="@string/lbl_mar"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearMonthpicker1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginEnd="@dimen/_23pxh"
+            android:layout_marginStart="@dimen/_48pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_weight="0.24" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            <TextView android:ellipsize="end" android:gravity="start"
+                android:id="@+id/txtAbcThree"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="@{listabcRowModel.txtAbcThree}"
+                style="@style/txtInterregular16_5" tools:text="@string/lbl_apr"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
