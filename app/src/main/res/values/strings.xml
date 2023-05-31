@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">saqib_estate_hm</string>
+    <string name="app_name">saqibengineeringhm</string>
     <string name="loading">Loading…</string>
     <string name="no_internet_connection">No internet connection!</string>
 <string name="lbl_jun">Jun</string>
@@ -277,6 +277,4 @@ Your total cost is </string>
 <string name="lbl_wall_repair">Wall repair</string>
 <string name="lbl_lukas_jerrik">Lukas Jerrik</string>
 <string name="msg_current_billing">Current billing price</string>
-<string name="msg_please_enter_valid_email">Please enter valid email</string>
-<string name="msg_please_enter_valid_text">Please enter valid text</string>
 </resources>
