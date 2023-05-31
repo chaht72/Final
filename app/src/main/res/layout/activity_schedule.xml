@@ -61,13 +61,13 @@
                     android:lineSpacingExtra="@dimen/_3pxh"
                     android:singleLine="true"
                     android:text="@{scheduleVM.scheduleModel.txtDescribeyourp}"
-                    style="@style/txtInterregular14_1" tools:text="@string/msg_describe_your_p"/>
+                    style="@style/txtInterregular14" tools:text="@string/msg_describe_your_p"/>
                 <LinearLayout android:gravity="center_horizontal"
                     android:id="@+id/linearCard"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10pxv"
                     android:layout_width="match_parent"
-                    android:orientation="vertical" style="@style/groupStylewhite_5">
+                    android:orientation="vertical" style="@style/groupStylewhite_3">
                     <TextView android:ellipsize="end"
                         android:gravity="start"
                         android:id="@+id/txtLanguage"
@@ -80,7 +80,7 @@
                         android:lineSpacingExtra="@dimen/_3pxh"
                         android:singleLine="true"
                         android:text="@{scheduleVM.scheduleModel.txtLanguage}"
-                        style="@style/txtInterregular14_2" tools:text="@string/msg_ex_i_have_wat"/>
+                        style="@style/txtInterregular14_1" tools:text="@string/msg_ex_i_have_wat"/>
                 </LinearLayout>
             </LinearLayout>
             <androidx.recyclerview.widget.RecyclerView
@@ -109,7 +109,7 @@
                     android:lineSpacingExtra="@dimen/_3pxh"
                     android:singleLine="true"
                     android:text="@{scheduleVM.scheduleModel.txtAttachphotos}"
-                    style="@style/txtInterregular14_1" tools:text="@string/lbl_attach_photos"/>
+                    style="@style/txtInterregular14" tools:text="@string/lbl_attach_photos"/>
                 <ImageView android:id="@+id/imagePlus"
                     android:layout_height="@dimen/_15pxh"
                     android:layout_marginBottom="@dimen/_2pxv"
@@ -129,7 +129,7 @@
                 android:orientation="horizontal" style="@style/groupStylecornerRadius_1">
                 <FrameLayout android:id="@+id/frameCard"
                     android:layout_height="@dimen/_151pxv"
-                    android:layout_width="@dimen/_170pxh" style="@style/groupStylewhite_1">
+                    android:layout_width="@dimen/_170pxh" style="@style/groupStylewhite_6">
                     <ImageView android:id="@+id/imageImageTwelve"
                         android:layout_gravity="start"
                         android:layout_height="@dimen/_151pxh"
@@ -142,7 +142,7 @@
                 <FrameLayout android:id="@+id/frameCard1"
                     android:layout_height="@dimen/_151pxv"
                     android:layout_marginStart="@dimen/_13pxh"
-                    android:layout_width="@dimen/_161pxh" style="@style/groupStylewhite_1">
+                    android:layout_width="@dimen/_161pxh" style="@style/groupStylewhite_6">
                     <ImageView android:id="@+id/imageImageThirteen"
                         android:layout_gravity="start"
                         android:layout_height="@dimen/_151pxh"
@@ -182,7 +182,7 @@
         </LinearLayout>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent" style="@style/groupStylewhite_3">
+            android:layout_width="match_parent" style="@style/groupStylewhite_1">
             <LinearLayout android:id="@+id/linearRowicon"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_12pxv"

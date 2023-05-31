@@ -77,13 +77,13 @@
                         tools:ignore="ContentDescription" tools:src="@drawable/img_clock_gray_900"/>
                     <TextView android:ellipsize="end"
                         android:gravity="start"
-                        android:id="@+id/txt0322"
+                        android:id="@+id/txtCloseButton"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_7pxv"
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_7pxh"
                         android:singleLine="true"
-                        android:text="@{cancelFinishWorkingVM.cancelFinishWorkingModel.txt0322}"
+                        android:text="@{cancelFinishWorkingVM.cancelFinishWorkingModel.txtCloseButton}"
                         style="@style/txtIntermedium32" tools:text="@string/lbl_03_22"/>
                 </LinearLayout>
             </FrameLayout>
@@ -106,9 +106,9 @@
                     android:paddingStart="@dimen/_30pxh"
                     android:paddingTop="@dimen/_10pxv"
                     android:singleLine="true"
-                    android:text="@string/lbl_cancel2"
+                    android:text="@string/lbl_cancel"
                     android:textAllCaps="false"
-                    style="@style/btnRoundedOutline_1" tools:text="@string/lbl_cancel2"/>
+                    style="@style/btnRoundedOutline_1" tools:text="@string/lbl_cancel"/>
                 <androidx.appcompat.widget.AppCompatButton
                     android:ellipsize="end" android:gravity="center"
                     android:id="@+id/btnFinish"
@@ -128,7 +128,7 @@
         </LinearLayout>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent" style="@style/groupStylewhite_3">
+            android:layout_width="match_parent" style="@style/groupStylewhite_1">
             <LinearLayout android:id="@+id/linearRowicon"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_15pxv"

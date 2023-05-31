@@ -9,15 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
         <activity
-            android:name="com.saqibestates.app.modules.schedulehourthree.ui.ScheduleHourThreeActivity" android:screenOrientation="portrait"/>
-        <activity
             android:name="com.saqibestates.app.modules.detailshandyman.ui.DetailsHandymanActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.chats.ui.ChatsActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.chatshandyman.ui.ChatsHandymanActivity" android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.saqibestates.app.modules.schedulecalendartwo.ui.ScheduleCalendarTwoActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.confirm.ui.ConfirmActivity" android:screenOrientation="portrait"/>
         <activity
@@ -27,13 +23,17 @@
         <activity
             android:name="com.saqibestates.app.modules.bookingsone.ui.BookingsOneActivity" android:screenOrientation="portrait"/>
         <activity
-            android:name="com.saqibestates.app.modules.handymanlist.ui.HandymanListActivity" android:screenOrientation="portrait"/>
+            android:name="com.saqibestates.app.modules.schedulecalendarone.ui.SchedulecalendaroneActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.clientprofilecontainer.ui.ClientProfileContainerActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.signupone.ui.SignUpOneActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.chatclient.ui.ChatClientActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibestates.app.modules.signup.ui.SignupActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibestates.app.modules.schedulecalendartwo.ui.SchedulecalendartwoActivity" android:screenOrientation="portrait"/>
         <activity android:exported="true"
             android:name="com.saqibestates.app.modules.landing.ui.LandingActivity" android:screenOrientation="portrait">
             <intent-filter>
@@ -42,29 +42,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.saqibestates.app.modules.schedulehourtwo.ui.ScheduleHourTwoActivity" android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.saqibestates.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
-        <activity
             android:name="com.saqibestates.app.modules.customerlogin.ui.CustomerLogInActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.cancelfinishworking.ui.CancelFinishWorkingActivity" android:screenOrientation="portrait"/>
         <activity
+            android:name="com.saqibestates.app.modules.schedulehourtwo.ui.SchedulehourtwoActivity" android:screenOrientation="portrait"/>
+        <activity
             android:name="com.saqibestates.app.modules.finishone.ui.FinishOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibestates.app.modules.schedulehourthree.ui.SchedulehourthreeActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.ordersummary.ui.OrderSummaryActivity" android:screenOrientation="portrait"/>
         <activity
+            android:name="com.saqibestates.app.modules.schedulehour1.ui.Schedulehour1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibestates.app.modules.handymanlist.ui.HandymanlistActivity" android:screenOrientation="portrait"/>
+        <activity
             android:name="com.saqibestates.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.saqibestates.app.modules.schedulehour1.ui.ScheduleHour1Activity" android:screenOrientation="portrait"/>
-        <activity
-            android:name="com.saqibestates.app.modules.schedulecalendarone.ui.ScheduleCalendarOneActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.handymanprofile.ui.HandymanProfileActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.homeone.ui.HomeOneActivity" android:screenOrientation="portrait"/>
         <activity
-            android:name="com.saqibestates.app.modules.schedulecalendarthree.ui.ScheduleCalendarThreeActivity" android:screenOrientation="portrait"/>
+            android:name="com.saqibestates.app.modules.schedulecalendarthree.ui.SchedulecalendarthreeActivity" android:screenOrientation="portrait"/>
         <activity
             android:name="com.saqibestates.app.modules.finish.ui.FinishActivity" android:screenOrientation="portrait"/>
     </application>

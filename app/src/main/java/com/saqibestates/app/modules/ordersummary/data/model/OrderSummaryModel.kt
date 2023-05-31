@@ -44,7 +44,7 @@ data class OrderSummaryModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtThomasLukas: String? = MyApp.getInstance().resources.getString(R.string.lbl_thomas_lukas2)
+  var txtThomasLukas: String? = MyApp.getInstance().resources.getString(R.string.lbl_thomas_lukas)
   ,
   /**
    * TODO Replace with dynamic value
@@ -54,8 +54,7 @@ data class OrderSummaryModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txt38ChestnutStr: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
+  var txtCatagories: String? = MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
   ,
   /**
    * TODO Replace with dynamic value
@@ -82,5 +81,5 @@ data class OrderSummaryModel(
   /**
    * TODO Replace with dynamic value
    */
-  var etFrame335Value: String? = null
+  var etClosebuttonValue: String? = null
 )

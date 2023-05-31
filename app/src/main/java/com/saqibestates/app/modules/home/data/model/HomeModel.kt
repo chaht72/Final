@@ -18,8 +18,7 @@ data class HomeModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txt38ChestnutStr: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
+  var txtCatagories: String? = MyApp.getInstance().resources.getString(R.string.msg_search_your_add)
   ,
   /**
    * TODO Replace with dynamic value

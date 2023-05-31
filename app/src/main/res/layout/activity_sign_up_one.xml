@@ -55,7 +55,7 @@
             android:paddingTop="@dimen/_9pxv" android:singleLine="true"
             android:text="@={signUpOneVM.signUpOneModel.etFieldcontentValue}"
             android:textColorHint="@color/gray_800"
-            style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
+            style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
         <TextView android:ellipsize="end"
             android:id="@+id/txtLabeltextOne"
             android:layout_gravity="start"
@@ -85,7 +85,7 @@
             android:paddingTop="@dimen/_9pxv" android:singleLine="true"
             android:text="@={signUpOneVM.signUpOneModel.etFieldcontentOneValue}"
             android:textColorHint="@color/gray_800"
-            style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
+            style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
         <TextView android:ellipsize="end"
             android:id="@+id/txtLabeltextTwo"
             android:layout_gravity="start"
@@ -115,7 +115,7 @@
             android:paddingTop="@dimen/_9pxv" android:singleLine="true"
             android:text="@={signUpOneVM.signUpOneModel.etFieldcontentTwoValue}"
             android:textColorHint="@color/gray_800"
-            style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
+            style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
         <TextView android:ellipsize="end"
             android:id="@+id/txtLabeltextThree"
             android:layout_gravity="start"
@@ -146,7 +146,7 @@
             android:paddingTop="@dimen/_9pxv" android:singleLine="true"
             android:text="@={signUpOneVM.signUpOneModel.etFieldcontentThreeValue}"
             android:textColorHint="@color/gray_800"
-            style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
+            style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
         <TextView android:ellipsize="end"
             android:id="@+id/txtLabeltextFour"
             android:layout_gravity="start"
@@ -177,7 +177,7 @@
             android:paddingTop="@dimen/_9pxv" android:singleLine="true"
             android:text="@={signUpOneVM.signUpOneModel.etFieldcontentFourValue}"
             android:textColorHint="@color/gray_800"
-            style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
+            style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
         <LinearLayout android:id="@+id/linearSignup"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_20pxv"
@@ -210,7 +210,7 @@
                 android:lineSpacingExtra="@dimen/_3pxh"
                 android:singleLine="true"
                 android:text="@{signUpOneVM.signUpOneModel.txtConfirmation}"
-                style="@style/txtInterregular12_6" tools:text="@string/msg_already_have_aa"/>
+                style="@style/txtInterregular12_4" tools:text="@string/msg_already_have_aa"/>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtLanguage"
                 android:layout_gravity="end"

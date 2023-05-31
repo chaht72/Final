@@ -13,7 +13,7 @@
             android:layout_marginStart="@dimen/_11pxh"
             android:layout_marginTop="@dimen/_7pxv"
             android:layout_weight="0.18" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_6">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_5">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtM"
                 android:layout_height="match_parent"
@@ -30,7 +30,7 @@
             android:layout_marginStart="@dimen/_26pxh"
             android:layout_marginTop="@dimen/_7pxv"
             android:layout_weight="0.12" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_7">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_6">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtMOne"
                 android:layout_height="match_parent"
@@ -47,7 +47,7 @@
             android:layout_marginStart="@dimen/_25pxh"
             android:layout_marginTop="@dimen/_7pxv"
             android:layout_weight="0.19" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_8">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_7">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtMTwo"
                 android:layout_height="match_parent"
@@ -64,7 +64,7 @@
             android:layout_marginStart="@dimen/_26pxh"
             android:layout_marginTop="@dimen/_7pxv"
             android:layout_weight="0.12" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_7">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_6">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtMThree"
                 android:layout_height="match_parent"
@@ -81,7 +81,7 @@
             android:layout_marginStart="@dimen/_28pxh"
             android:layout_marginTop="@dimen/_7pxv"
             android:layout_weight="0.12" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_7">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_6">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtMFour"
                 android:layout_height="match_parent"
@@ -98,7 +98,7 @@
             android:layout_marginStart="@dimen/_28pxh"
             android:layout_marginTop="@dimen/_7pxv"
             android:layout_weight="0.12" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_7">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_6">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtMFive"
                 android:layout_height="match_parent"
@@ -116,7 +116,7 @@
             android:layout_marginStart="@dimen/_28pxh"
             android:layout_marginTop="@dimen/_7pxv"
             android:layout_weight="0.12" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_7">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_6">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtMSix"
                 android:layout_height="match_parent"

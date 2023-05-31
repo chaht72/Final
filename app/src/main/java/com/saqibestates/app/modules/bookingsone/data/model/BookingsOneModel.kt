@@ -23,7 +23,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtFrame370: String? = MyApp.getInstance().resources.getString(R.string.lbl_in_progress)
+  var txtBookbutton: String? = MyApp.getInstance().resources.getString(R.string.lbl_in_progress)
   ,
   /**
    * TODO Replace with dynamic value
@@ -34,7 +34,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtDate23MarTwo: String? = MyApp.getInstance().resources.getString(R.string.msg_date_23_mar_2)
+  var txtButtonclose: String? = MyApp.getInstance().resources.getString(R.string.msg_date_23_mar_2)
   ,
   /**
    * TODO Replace with dynamic value
@@ -49,7 +49,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txt38ChestnutStr: String? =
+  var txtCloseButton: String? =
       MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
   ,
   /**
@@ -80,8 +80,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txt38ChestnutStrOne: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
+  var txtLpgout: String? = MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
   ,
   /**
    * TODO Replace with dynamic value
@@ -91,7 +90,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtFrame371: String? = MyApp.getInstance().resources.getString(R.string.lbl_completed)
+  var txtMoneytree: String? = MyApp.getInstance().resources.getString(R.string.lbl_completed)
   ,
   /**
    * TODO Replace with dynamic value
@@ -122,8 +121,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txt38ChestnutStrTwo: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
+  var txtLogout: String? = MyApp.getInstance().resources.getString(R.string.msg_38_chestnut_str)
   ,
   /**
    * TODO Replace with dynamic value
@@ -133,7 +131,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtFrame370One: String? = MyApp.getInstance().resources.getString(R.string.lbl_pending)
+  var txtCatagorie: String? = MyApp.getInstance().resources.getString(R.string.lbl_pending)
   ,
   /**
    * TODO Replace with dynamic value
@@ -166,7 +164,7 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.lbl_cancel)
+  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.lbl_cancel2)
   ,
   /**
    * TODO Replace with dynamic value
@@ -176,13 +174,13 @@ data class BookingsOneModel(
   /**
    * TODO Replace with dynamic value
    */
-  var etFrame362Value: String? = null,
+  var etCatagoriesValue: String? = null,
   /**
    * TODO Replace with dynamic value
    */
-  var etFrame362OneValue: String? = null,
+  var etButonsubmutValue: String? = null,
   /**
    * TODO Replace with dynamic value
    */
-  var etFrame362TwoValue: String? = null
+  var etButtonsubmitValue: String? = null
 )

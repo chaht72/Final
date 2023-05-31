@@ -8,7 +8,7 @@ data class DatetimeRowModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtDate: String? = MyApp.getInstance().resources.getString(R.string.lbl_date2)
+  var txtDate: String? = MyApp.getInstance().resources.getString(R.string.lbl_date)
   ,
   /**
    * TODO Replace with dynamic value

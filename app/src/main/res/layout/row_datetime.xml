@@ -14,12 +14,12 @@
             android:lineSpacingExtra="@dimen/_3pxh"
             android:singleLine="true"
             android:text="@{datetimeRowModel.txtDate}"
-            style="@style/txtInterregular14_1" tools:text="@string/lbl_date2"/>
+            style="@style/txtInterregular14" tools:text="@string/lbl_date"/>
         <LinearLayout android:id="@+id/linearRowddmmyy"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_8pxv"
             android:layout_width="wrap_content"
-            android:orientation="horizontal" style="@style/groupStylewhite_6">
+            android:orientation="horizontal" style="@style/groupStylewhite_4">
             <TextView android:ellipsize="end"
                 android:id="@+id/txtDdmmyy"
                 android:layout_height="wrap_content"

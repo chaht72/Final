@@ -65,14 +65,14 @@
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
                         android:text="@{detailsHandymanVM.detailsHandymanModel.txtThomasLukas}"
-                        style="@style/txtIntermedium16_1" tools:text="@string/lbl_thomas_lukas2"/>
+                        style="@style/txtIntermedium16_1" tools:text="@string/lbl_thomas_lukas"/>
                     <TextView android:id="@+id/txtDescription"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_13pxv"
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_8pxh"
                         android:text="@{detailsHandymanVM.detailsHandymanModel.txtDescription}"
-                        style="@style/txtInterregular12" tools:text="@string/msg_hardworking_and"/>
+                        style="@style/txtInterregular12_3" tools:text="@string/msg_hardworking_and"/>
                 </LinearLayout>
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtPrice"
@@ -115,7 +115,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{detailsHandymanVM.detailsHandymanModel.txtJobs}"
-                            style="@style/txtInterregular12" tools:text="@string/lbl_jobs"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/lbl_jobs"/>
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtFiftySix"
                             android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{detailsHandymanVM.detailsHandymanModel.txtRating}"
-                            style="@style/txtInterregular12" tools:text="@string/lbl_rating"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/lbl_rating"/>
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtFortySix"
                             android:layout_height="wrap_content"
@@ -172,7 +172,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{detailsHandymanVM.detailsHandymanModel.txtSave}"
-                            style="@style/txtInterregular12" tools:text="@string/lbl_save"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/lbl_save"/>
                         <ImageView android:id="@+id/imageBookmark"
                             android:layout_gravity="start"
                             android:layout_height="@dimen/_20pxh"
@@ -200,7 +200,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{detailsHandymanVM.detailsHandymanModel.txtShare}"
-                            style="@style/txtInterregular12" tools:text="@string/lbl_share"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/lbl_share"/>
                         <ImageView android:id="@+id/imageSearch"
                             android:layout_gravity="center_horizontal"
                             android:layout_height="@dimen/_20pxh"
@@ -217,7 +217,7 @@
                     android:layout_gravity="top|start"
                     android:layout_height="@dimen/_192pxv"
                     android:layout_marginBottom="@dimen/_10pxv"
-                    android:layout_width="@dimen/_348pxh" style="@style/groupStylewhite_5">
+                    android:layout_width="@dimen/_348pxh" style="@style/groupStylewhite_3">
                     <ImageView android:id="@+id/imageImageSix"
                         android:layout_gravity="start"
                         android:layout_height="@dimen/_192pxh"
@@ -266,7 +266,7 @@
                     android:layout_width="match_parent" android:orientation="horizontal">
                     <FrameLayout android:id="@+id/frameStackOne"
                         android:layout_height="@dimen/_87pxv"
-                        android:layout_width="@dimen/_111pxh" style="@style/groupStylewhite_11">
+                        android:layout_width="@dimen/_111pxh" style="@style/groupStylewhite_10">
                         <ImageView android:id="@+id/imageImageNine"
                             android:layout_gravity="start"
                             android:layout_height="@dimen/_87pxh"
@@ -286,7 +286,7 @@
                     <FrameLayout android:id="@+id/frameStackTwo"
                         android:layout_height="@dimen/_87pxv"
                         android:layout_marginStart="@dimen/_8pxh"
-                        android:layout_width="@dimen/_111pxh" style="@style/groupStylewhite_11">
+                        android:layout_width="@dimen/_111pxh" style="@style/groupStylewhite_10">
                         <ImageView android:id="@+id/imageImageEleven"
                             android:layout_gravity="start"
                             android:layout_height="@dimen/_87pxh"
@@ -337,7 +337,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_8pxh"
                         android:text="@{detailsHandymanVM.detailsHandymanModel.txtNothingtocomp}"
-                        style="@style/txtInterregular12" tools:text="@string/msg_nothing_to_comp"/>
+                        style="@style/txtInterregular12_3" tools:text="@string/msg_nothing_to_comp"/>
                 </LinearLayout>
                 <LinearLayout android:id="@+id/linearRowstarone"
                     android:layout_gravity="top|end"
@@ -402,7 +402,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{detailsHandymanVM.detailsHandymanModel.txtNothingtocompOne}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_nothing_to_comp2"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_nothing_to_comp2"/>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowstaroneOne"
                         android:layout_gravity="top|end"
@@ -459,7 +459,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_8pxh"
                             android:text="@{detailsHandymanVM.detailsHandymanModel.txtMikewasourHa}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_mike_was_our_ha"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_mike_was_our_ha"/>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowstaroneTwo"
                         android:layout_gravity="top|end"
@@ -492,7 +492,7 @@
                     android:layout_marginBottom="@dimen/_40pxv"
                     android:layout_marginTop="@dimen/_40pxv"
                     android:layout_width="match_parent"
-                    android:orientation="vertical" style="@style/groupStylewhite_10">
+                    android:orientation="vertical" style="@style/groupStylewhite_9">
                     <LinearLayout android:gravity="center_vertical"
                         android:id="@+id/linearRowvideocamera"
                         android:layout_height="match_parent"
@@ -501,12 +501,12 @@
                         android:layout_marginStart="@dimen/_59pxh"
                         android:layout_marginTop="@dimen/_11pxv"
                         android:layout_width="match_parent"
-                        android:orientation="horizontal" style="@style/groupStylecornerRadius_3">
+                        android:orientation="horizontal" style="@style/groupStylecornerRadius_2">
                         <LinearLayout android:id="@+id/linearBadge"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.5"
                             android:layout_width="0dp"
-                            android:orientation="horizontal" style="@style/groupStylewhite_12">
+                            android:orientation="horizontal" style="@style/groupStylewhite_11">
                             <ImageView
                                 android:id="@+id/imageVideocamera"
                                 android:layout_height="@dimen/_13pxh"
@@ -536,7 +536,7 @@
                             android:layout_marginStart="@dimen/_50pxh"
                             android:layout_weight="0.5"
                             android:layout_width="0dp"
-                            android:orientation="horizontal" style="@style/groupStyleblue_3">
+                            android:orientation="horizontal" style="@style/groupStyleblue_2">
                             <ImageView android:id="@+id/imageMenu"
                                 android:layout_height="@dimen/_12pxh"
                                 android:layout_marginBottom="@dimen/_11pxv"

@@ -113,7 +113,7 @@
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="true"
                             android:text="@{handymanProfileVM.handymanProfileModel.txtThomasLukas}"
-                            style="@style/txtIntermedium18" tools:text="@string/lbl_thomas_lukas2"/>
+                            style="@style/txtIntermedium18" tools:text="@string/lbl_thomas_lukas"/>
                         <TextView android:ellipsize="end"
                             android:gravity="end"
                             android:id="@+id/txtEmail"
@@ -334,7 +334,7 @@
         </LinearLayout>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent" style="@style/groupStylewhite_3">
+            android:layout_width="match_parent" style="@style/groupStylewhite_1">
             <LinearLayout android:id="@+id/linearRowicon"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_15pxv"

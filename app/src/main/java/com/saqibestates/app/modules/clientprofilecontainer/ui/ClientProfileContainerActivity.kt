@@ -8,7 +8,6 @@ import com.saqibestates.app.R
 import com.saqibestates.app.appcomponents.base.BaseActivity
 import com.saqibestates.app.databinding.ActivityClientProfileContainerBinding
 import com.saqibestates.app.extensions.loadFragment
-import com.saqibestates.app.modules.bookings.ui.BookingsFragment
 import com.saqibestates.app.modules.chatsone.ui.ChatsOneFragment
 import com.saqibestates.app.modules.clientprofile.ui.ClientProfileFragment
 import com.saqibestates.app.modules.clientprofilecontainer.`data`.viewmodel.ClientProfileContainerVM
@@ -38,17 +37,7 @@ class ClientProfileContainerActivity :
 
   override fun setUpClicks(): Unit {
     binding.imageMenu.setOnClickListener {
-      val destFragment = BookingsFragment.getInstance(null)
-      this.loadFragment(
-      R.id.fragmentContainer,
-      destFragment,
-      bundle = destFragment.arguments,
-      tag = BookingsFragment.TAG,
-      addToBackStack = true,
-      add = false,
-      enter = null,
-      exit = null,
-      )
+      // TODO please, add your navigation code here
     }
     binding.imageIcon.setOnClickListener {
       val destFragment = ClientProfileFragment.getInstance(null)

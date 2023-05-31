@@ -49,7 +49,7 @@
             android:layout_marginStart="@dimen/_39pxh"
             android:layout_marginTop="@dimen/_31pxv"
             android:layout_width="match_parent"
-            android:orientation="horizontal" style="@style/groupStylewhite_5">
+            android:orientation="horizontal" style="@style/groupStylewhite_3">
             <ImageView android:id="@+id/imageDrywallInstall"
                 android:layout_height="@dimen/_104pxh"
                 android:layout_marginBottom="@dimen/_14pxv"
@@ -131,13 +131,13 @@
             android:layout_marginStart="@dimen/_39pxh"
             android:layout_marginTop="@dimen/_15pxv"
             android:layout_width="match_parent"
-            android:orientation="horizontal" style="@style/groupStylewhite_5">
+            android:orientation="horizontal" style="@style/groupStylewhite_3">
             <FrameLayout android:id="@+id/frameStack"
                 android:layout_height="@dimen/_83pxv"
                 android:layout_marginBottom="@dimen/_13pxv"
                 android:layout_marginStart="@dimen/_11pxh"
                 android:layout_marginTop="@dimen/_17pxv"
-                android:layout_width="@dimen/_110pxh" style="@style/groupStylewhite_5">
+                android:layout_width="@dimen/_110pxh" style="@style/groupStylewhite_3">
                 <ImageView android:id="@+id/imageImageFifteen"
                     android:layout_gravity="end"
                     android:layout_height="@dimen/_83pxh"
@@ -205,7 +205,7 @@
                     android:lineSpacingExtra="@dimen/_3pxh"
                     android:singleLine="true"
                     android:text="@{orderSummaryVM.orderSummaryModel.txtThomasLukas}"
-                    style="@style/txtInterregular13_4" tools:text="@string/lbl_thomas_lukas2"/>
+                    style="@style/txtInterregular13_4" tools:text="@string/lbl_thomas_lukas"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout android:gravity="center_vertical"
@@ -215,7 +215,7 @@
             android:layout_marginStart="@dimen/_39pxh"
             android:layout_marginTop="@dimen/_15pxv"
             android:layout_width="match_parent"
-            android:orientation="horizontal" style="@style/groupStylewhite_5">
+            android:orientation="horizontal" style="@style/groupStylewhite_3">
             <ImageView android:id="@+id/imageLocation"
                 android:layout_height="@dimen/_40pxh"
                 android:layout_marginBottom="@dimen/_16pxv"
@@ -243,15 +243,15 @@
                     style="@style/txtIntermedium14_1" tools:text="@string/lbl_address"/>
                 <TextView android:ellipsize="end"
                     android:gravity="center_horizontal"
-                    android:id="@+id/txt38ChestnutStr"
+                    android:id="@+id/txtCatagories"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_2pxh"
                     android:layout_marginTop="@dimen/_3pxv"
                     android:layout_width="match_parent"
                     android:lineSpacingExtra="@dimen/_3pxh"
                     android:singleLine="true"
-                    android:text="@{orderSummaryVM.orderSummaryModel.txt38ChestnutStr}"
-                    style="@style/txtInterregular12_4" tools:text="@string/msg_38_chestnut_str"/>
+                    android:text="@{orderSummaryVM.orderSummaryModel.txtCatagories}"
+                    style="@style/txtInterregular12_1" tools:text="@string/msg_38_chestnut_str"/>
             </LinearLayout>
             <ImageView android:id="@+id/imageEdit"
                 android:layout_height="@dimen/_13pxh"
@@ -271,7 +271,7 @@
             android:layout_marginStart="@dimen/_39pxh"
             android:layout_marginTop="@dimen/_15pxv"
             android:layout_width="match_parent"
-            android:orientation="horizontal" style="@style/groupStylewhite_5">
+            android:orientation="horizontal" style="@style/groupStylewhite_3">
             <ImageView android:id="@+id/imageIcoutlinedisc"
                 android:layout_height="@dimen/_33pxh"
                 android:layout_marginBottom="@dimen/_22pxv"
@@ -283,7 +283,7 @@
                 tools:ignore="ContentDescription" tools:src="@drawable/img_icoutlinedisc"/>
             <EditText android:ellipsize="end"
                 android:hint="@string/lbl_apply_coupon"
-                android:id="@+id/etFrame335" android:inputType="text"
+                android:id="@+id/etClosebutton" android:inputType="text"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_21pxv"
                 android:layout_marginStart="@dimen/_34pxh"
@@ -293,7 +293,7 @@
                 android:paddingBottom="@dimen/_14pxv"
                 android:paddingEnd="@dimen/_30pxh"
                 android:singleLine="true"
-                android:text="@={orderSummaryVM.orderSummaryModel.etFrame335Value}"
+                android:text="@={orderSummaryVM.orderSummaryModel.etClosebuttonValue}"
                 android:textColorHint="@color/gray_800"
                 style="@style/etIntermedium14" tools:ignore="Autofill"/>
             <ImageView android:id="@+id/imageEditOne"
@@ -314,7 +314,7 @@
             android:layout_marginStart="@dimen/_39pxh"
             android:layout_marginTop="@dimen/_13pxv"
             android:layout_width="match_parent"
-            android:orientation="vertical" style="@style/groupStylewhite_5">
+            android:orientation="vertical" style="@style/groupStylewhite_3">
             <LinearLayout android:id="@+id/linearRowvector"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_25pxh"
@@ -356,7 +356,7 @@
                         android:lineSpacingExtra="@dimen/_3pxh"
                         android:singleLine="true"
                         android:text="@{orderSummaryVM.orderSummaryModel.txtVisaDebitcard}"
-                        style="@style/txtInterregular12_4" tools:text="@string/msg_visa_debit_card"/>
+                        style="@style/txtInterregular12_1" tools:text="@string/msg_visa_debit_card"/>
                 </LinearLayout>
                 <ImageView android:id="@+id/imageEditTwo"
                     android:layout_height="@dimen/_13pxh"
@@ -379,7 +379,7 @@
                 android:lineSpacingExtra="@dimen/_3pxh"
                 android:singleLine="true"
                 android:text="@{orderSummaryVM.orderSummaryModel.txtLanguage}"
-                style="@style/txtInterregular10_1" tools:text="@string/msg_your_payment_wi"/>
+                style="@style/txtInterregular10" tools:text="@string/msg_your_payment_wi"/>
         </LinearLayout>
         <LinearLayout android:gravity="center_vertical"
             android:id="@+id/linearBookbutton"
@@ -389,7 +389,7 @@
             android:layout_marginStart="@dimen/_39pxh"
             android:layout_marginTop="@dimen/_152pxv"
             android:layout_width="match_parent"
-            android:orientation="horizontal" style="@style/groupStyleblue_3">
+            android:orientation="horizontal" style="@style/groupStyleblue_2">
             <ImageView android:id="@+id/imageMenu"
                 android:layout_height="@dimen/_20pxh"
                 android:layout_marginBottom="@dimen/_13pxv"

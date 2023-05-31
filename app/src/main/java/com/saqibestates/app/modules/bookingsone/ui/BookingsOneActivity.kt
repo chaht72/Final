@@ -20,15 +20,15 @@ class BookingsOneActivity : BaseActivity<ActivityBookingsOneBinding>(R.layout.ac
   }
 
   override fun setUpClicks(): Unit {
-    binding.etFrame362Two.setOnClickListener {
+    binding.etButtonsubmit.setOnClickListener {
       val destIntent = ChatClientActivity.getIntent(this, null)
       startActivity(destIntent)
     }
-    binding.etFrame362.setOnClickListener {
+    binding.etCatagories.setOnClickListener {
       val destIntent = ChatClientActivity.getIntent(this, null)
       startActivity(destIntent)
     }
-    binding.etFrame362One.setOnClickListener {
+    binding.etButonsubmut.setOnClickListener {
       val destIntent = ChatClientActivity.getIntent(this, null)
       startActivity(destIntent)
     }

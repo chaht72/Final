@@ -112,7 +112,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_10pxh"
                         android:text="@{chatClientVM.chatClientModel.txtDescription}"
-                        style="@style/txtInterregular14_2" tools:text="@string/msg_the_wall_with_w"/>
+                        style="@style/txtInterregular14_1" tools:text="@string/msg_the_wall_with_w"/>
                 </LinearLayout>
             </LinearLayout>
             <FrameLayout android:id="@+id/frameStackrectanglesix"
@@ -161,7 +161,7 @@
                     android:layout_width="match_parent"
                     android:lineSpacingExtra="@dimen/_10pxh"
                     android:text="@{chatClientVM.chatClientModel.txtDuration}"
-                    style="@style/txtInterregular14_5" tools:text="@string/msg_it_will_probabl"/>
+                    style="@style/txtInterregular14_4" tools:text="@string/msg_it_will_probabl"/>
             </LinearLayout>
             <LinearLayout android:gravity="start"
                 android:id="@+id/linearRowbitmapOne"
@@ -201,7 +201,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_10pxh"
                         android:text="@{chatClientVM.chatClientModel.txtRightawayAre}"
-                        style="@style/txtInterregular14_2" tools:text="@string/msg_yes_it_is_all"/>
+                        style="@style/txtInterregular14_1" tools:text="@string/msg_yes_it_is_all"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout android:gravity="center_horizontal"
@@ -222,7 +222,7 @@
                     android:layout_width="match_parent"
                     android:lineSpacingExtra="@dimen/_10pxh"
                     android:text="@{chatClientVM.chatClientModel.txtIwouldloveto}"
-                    style="@style/txtInterregular14_5" tools:text="@string/msg_in_this_case_y"/>
+                    style="@style/txtInterregular14_4" tools:text="@string/msg_in_this_case_y"/>
             </LinearLayout>
             <LinearLayout android:gravity="start"
                 android:id="@+id/linearRowbitmapTwo"
@@ -339,7 +339,7 @@
                 android:singleLine="true"
                 android:text="@={chatClientVM.chatClientModel.etInputValue}"
                 android:textColorHint="@color/gray_400"
-                style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
+                style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
         </LinearLayout>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"

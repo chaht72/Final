@@ -42,7 +42,7 @@
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
                         android:text="@{chatsHandymanVM.chatsHandymanModel.txtThomasLukas}"
-                        style="@style/txtIntermedium18_2" tools:text="@string/lbl_thomas_lukas2"/>
+                        style="@style/txtIntermedium18_2" tools:text="@string/lbl_thomas_lukas"/>
                     <ImageView android:id="@+id/imageCarbonoverflow"
                         android:layout_height="@dimen/_20pxh"
                         android:layout_marginStart="@dimen/_112pxh"
@@ -78,7 +78,7 @@
                 android:layout_marginStart="@dimen/_53pxh"
                 android:layout_marginTop="@dimen/_6pxv"
                 android:layout_width="wrap_content"
-                android:orientation="vertical" style="@style/groupStyleblue_1">
+                android:orientation="vertical" style="@style/groupStyleblue_700cornerRadius">
                 <TextView android:gravity="center_horizontal"
                     android:id="@+id/txtDescription"
                     android:layout_height="match_parent"
@@ -89,7 +89,7 @@
                     android:layout_width="match_parent"
                     android:lineSpacingExtra="@dimen/_10pxh"
                     android:text="@{chatsHandymanVM.chatsHandymanModel.txtDescription}"
-                    style="@style/txtInterregular14_5" tools:text="@string/msg_the_wall_with_w"/>
+                    style="@style/txtInterregular14_4" tools:text="@string/msg_the_wall_with_w"/>
             </LinearLayout>
             <LinearLayout android:gravity="start"
                 android:id="@+id/linearRowuser"
@@ -138,7 +138,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{chatsHandymanVM.chatsHandymanModel.txtWhenshallwes}"
-                            style="@style/txtInterregular14_2" tools:text="@string/lbl_hello_minnie"/>
+                            style="@style/txtInterregular14_1" tools:text="@string/lbl_hello_minnie"/>
                     </FrameLayout>
                     <LinearLayout android:gravity="center_horizontal"
                         android:id="@+id/linearColumnduration"
@@ -156,7 +156,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_10pxh"
                             android:text="@{chatsHandymanVM.chatsHandymanModel.txtDuration}"
-                            style="@style/txtInterregular14_2" tools:text="@string/msg_it_will_probabl"/>
+                            style="@style/txtInterregular14_1" tools:text="@string/msg_it_will_probabl"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -167,7 +167,7 @@
                 android:layout_marginStart="@dimen/_53pxh"
                 android:layout_marginTop="@dimen/_25pxv"
                 android:layout_width="wrap_content"
-                android:orientation="vertical" style="@style/groupStyleblue_2">
+                android:orientation="vertical" style="@style/groupStyleblue_1">
                 <TextView android:gravity="center_horizontal"
                     android:id="@+id/txtRightawayAre"
                     android:layout_height="match_parent"
@@ -178,7 +178,7 @@
                     android:layout_width="match_parent"
                     android:lineSpacingExtra="@dimen/_10pxh"
                     android:text="@{chatsHandymanVM.chatsHandymanModel.txtRightawayAre}"
-                    style="@style/txtInterregular14_5" tools:text="@string/msg_yes_it_is_all"/>
+                    style="@style/txtInterregular14_4" tools:text="@string/msg_yes_it_is_all"/>
             </LinearLayout>
             <LinearLayout android:gravity="start"
                 android:id="@+id/linearRowuserOne"
@@ -214,7 +214,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_10pxh"
                         android:text="@{chatsHandymanVM.chatsHandymanModel.txtIwouldloveto}"
-                        style="@style/txtInterregular14_2" tools:text="@string/msg_in_this_case_y"/>
+                        style="@style/txtInterregular14_1" tools:text="@string/msg_in_this_case_y"/>
                 </LinearLayout>
             </LinearLayout>
             <androidx.appcompat.widget.AppCompatButton
@@ -276,7 +276,7 @@
                         android:lineSpacingExtra="@dimen/_10pxh"
                         android:singleLine="true"
                         android:text="@{chatsHandymanVM.chatsHandymanModel.txtWeekday}"
-                        style="@style/txtInterregular14_6" tools:text="@string/msg_see_you_on_frid"/>
+                        style="@style/txtInterregular14_5" tools:text="@string/msg_see_you_on_frid"/>
                 </FrameLayout>
             </LinearLayout>
             <EditText
@@ -299,7 +299,7 @@
                 android:singleLine="true"
                 android:text="@={chatsHandymanVM.chatsHandymanModel.etInputValue}"
                 android:textColorHint="@color/gray_400"
-                style="@style/etSolidRoundedOutline_1" tools:ignore="Autofill"/>
+                style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
         </LinearLayout>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"

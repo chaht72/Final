@@ -1,8 +1,5 @@
 package com.saqibestates.app.modules.finish.ui
 
-import android.content.Context
-import android.content.Intent
-import android.os.Bundle
 import androidx.activity.viewModels
 import com.saqibestates.app.R
 import com.saqibestates.app.appcomponents.base.BaseActivity
@@ -33,11 +30,5 @@ class FinishActivity : BaseActivity<ActivityFinishBinding>(R.layout.activity_fin
   companion object {
     const val TAG: String = "FINISH_ACTIVITY"
 
-
-    fun getIntent(context: Context, bundle: Bundle?): Intent {
-      val destIntent = Intent(context, FinishActivity::class.java)
-      destIntent.putExtra("bundle", bundle)
-      return destIntent
-    }
   }
 }

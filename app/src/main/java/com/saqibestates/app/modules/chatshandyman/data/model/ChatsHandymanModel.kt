@@ -8,7 +8,7 @@ data class ChatsHandymanModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtThomasLukas: String? = MyApp.getInstance().resources.getString(R.string.lbl_thomas_lukas2)
+  var txtThomasLukas: String? = MyApp.getInstance().resources.getString(R.string.lbl_thomas_lukas)
   ,
   /**
    * TODO Replace with dynamic value

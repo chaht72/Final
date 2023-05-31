@@ -13,7 +13,7 @@ data class CancelFinishWorkingModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txt0322: String? = MyApp.getInstance().resources.getString(R.string.lbl_03_22)
+  var txtCloseButton: String? = MyApp.getInstance().resources.getString(R.string.lbl_03_22)
   ,
   /**
    * TODO Replace with dynamic value

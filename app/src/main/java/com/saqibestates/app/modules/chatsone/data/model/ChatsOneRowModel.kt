@@ -8,7 +8,7 @@ data class ChatsOneRowModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtVernonPowell: String? = MyApp.getInstance().resources.getString(R.string.lbl_thomas_lukas2)
+  var txtVernonPowell: String? = MyApp.getInstance().resources.getString(R.string.lbl_thomas_lukas)
   ,
   /**
    * TODO Replace with dynamic value

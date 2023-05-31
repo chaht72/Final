@@ -17,7 +17,6 @@
 <string name="lbl_y">y</string>
 <string name="lbl_4_pm"> 4 Pm</string>
 <string name="msg_your_payment_wi">Your payment will proceed after the working session </string>
-<string name="lbl_thomas_lukas2">Thomas Lukas</string>
 <string name="lbl_total_service">Total Service</string>
 <string name="msg_fixture_replace">Fixture replacement</string>
 <string name="lbl_minnie_ramsey">Minnie Ramsey</string>
@@ -30,13 +29,11 @@
 <string name="lbl_f">F</string>
 <string name="lbl_in_progress">In Progress</string>
 <string name="lbl_252">\u20ac25</string>
-<string name="lbl_date">Date: </string>
-<string name="msg_make_a_follow_u">Make a follow-up appointment</string>
+<string name="lbl_date">Date</string>
 <string name="lbl_last_name">Last name</string>
 <string name="lbl_ha_ha_lol">Ha ha.. lol </string>
 <string name="lbl_002">:00</string>
 <string name="lbl_125">\u20ac125</string>
-<string name="lbl_about_handyman">About Handyman</string>
 <string name="msg_date_23_mar_2">Date: 23 Mar, 2022</string>
 <string name="lbl_2_44_pm">2:44 PM</string>
 <string name="lbl_details">details</string>
@@ -57,8 +54,8 @@
 <string name="lbl_4_minutes">4 minutes</string>
 <string name="msg_write_a_message">Write a message\u2026</string>
 <string name="msg_payment_option">Payment  options</string>
-<string name="msg_started_at_08">Started at: 08:30</string>
 <string name="msg_at_leat_8_chara">at leat 8 characters</string>
+<string name="msg_started_at_08">Started at: 08:30</string>
 <string name="msg_jan_21_2022_a">Jan 21, 2022  at 4 Pm</string>
 <string name="msg_your_handyman_f">Your handyman finished the work. 
 Your total cost is \u20ac122.5 for
@@ -111,7 +108,7 @@ Your total cost is \u20ac122.5 for
 <string name="lbl_for">for
 </string>
 <string name="lbl_save">Save</string>
-<string name="lbl_thomas_lukas">Thomas lukas</string>
+<string name="lbl_thomas_lukas">Thomas Lukas</string>
 <string name="lbl_at">at</string>
 <string name="msg_ok_great_than">Ok! Great! Thank you very much</string>
 <string name="lbl_share">Share</string>
@@ -131,10 +128,12 @@ Your total cost is \u20ac122.5 for
 <string name="lbl_booking_section">Booking Section</string>
 <string name="lbl_4_pm2">4 Pm</string>
 <string name="msg_38_chestnut_str">38 Chestnut StreetStaunton</string>
+<string name="msg_search_your_add">Search your address </string>
+<string name="msg_saqib_estates_p">Saqib Estates Private Limited</string>
 <string name="lbl_wall_decoration">wall decoration</string>
-<string name="lbl_ukas">ukas</string>
 <string name="msg_select_your_acc">Select your account type and 
 Log In</string>
+<string name="lbl_ukas">ukas</string>
 <string name="lbl_and2"> and </string>
 <string name="msg_settings_and_pr">Settings and Privacy</string>
 <string name="lbl_order_summar">Order summar</string>
@@ -175,7 +174,7 @@ Log In</string>
 <string name="lbl_wall_repair2">wall repair</string>
 <string name="lbl_plumping">plumping</string>
 <string name="lbl_profile_details"> Profile details</string>
-<string name="lbl_cancel">Cancel </string>
+<string name="lbl_cancel">Cancel</string>
 <string name="lbl_i_m_a_customer">I\u2019m a customer</string>
 <string name="msg_your_booking_ha">Your booking has been confirmed for 
 Jan 4th, 2022
@@ -197,14 +196,14 @@ Check the Booking Section for details</string>
 <string name="lbl_2024">2024</string>
 <string name="lbl_2023">2023</string>
 <string name="lbl_2022">2022</string>
-<string name="lbl_pending">Pending</string>
 <string name="lbl_3_5">3.5</string>
+<string name="lbl_pending">Pending</string>
 <string name="msg_it_will_probabl">It will probably take me 5 hours. 
 Is it ok for you?</string>
 <string name="lbl_09_30_am">09:30 AM</string>
 <string name="lbl_09_19_pm">09:19 PM</string>
 <string name="lbl_cooking_for_one">Cooking For One</string>
-<string name="lbl_time">Time: </string>
+<string name="lbl_time">Time</string>
 <string name="lbl_right_now">Right now</string>
 <string name="msg_your_booking_ha2">Your booking has been confirmed for 
 </string>
@@ -217,7 +216,7 @@ Is it ok for you?</string>
 <string name="msg_we_are_looking">We are looking for you</string>
 <string name="lbl_dec">Dec</string>
 <string name="lbl_jerrik">Jerrik</string>
-<string name="lbl_date2">Date</string>
+<string name="lbl_date2">Date: </string>
 <string name="msg_what_services_a">What services are you looking for?</string>
 <string name="lbl_erna_else">Erna Else</string>
 <string name="lbl_gardening">Gardening</string>
@@ -227,8 +226,8 @@ Is it ok for you?</string>
 <string name="lbl_new_york">New York</string>
 <string name="lbl_confirm">Confirm</string>
 <string name="lbl_call">Call</string>
-<string name="lbl_25_hr">\u20ac 25/hr</string>
 <string name="lbl_attach_photos">Attach photos</string>
+<string name="lbl_25_hr">\u20ac 25/hr</string>
 <string name="lbl_3_hours">3 hours</string>
 <string name="lbl_first_name2">first name</string>
 <string name="lbl_saqib_ali">Saqib Ali</string>
@@ -243,7 +242,7 @@ Your total cost is </string>
 <string name="lbl_seen">Seen</string>
 <string name="lbl_check_the">Check the </string>
 <string name="lbl_projects">Projects</string>
-<string name="lbl_cancel2">Cancel</string>
+<string name="lbl_cancel2">Cancel </string>
 <string name="msg_give_lukas_a_ra">Give Lukas a rating</string>
 <string name="lbl_email">Email</string>
 <string name="lbl_jan_21_2022">Jan 21, 2022  </string>
@@ -262,7 +261,7 @@ Your total cost is </string>
 <string name="msg_visa_debit_card">Visa Debit card ****4591</string>
 <string name="lbl_00_00">00:00</string>
 <string name="lbl_window_repair">Window repair</string>
-<string name="lbl_time2">Time</string>
+<string name="lbl_time2">Time: </string>
 <string name="lbl_i_m_a_handyman">I\u2019m a  handyman</string>
 <string name="lbl_all">All</string>
 <string name="lbl_jobs">Jobs</string>

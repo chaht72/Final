@@ -13,7 +13,7 @@
             android:layout_marginStart="@dimen/_22pxh"
             android:layout_marginTop="@dimen/_10pxv"
             android:layout_weight="0.25" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_2">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtAbc"
                 android:layout_height="match_parent"
@@ -30,7 +30,7 @@
             android:layout_marginStart="@dimen/_49pxh"
             android:layout_marginTop="@dimen/_10pxv"
             android:layout_weight="0.25" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_2">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtAbcOne"
                 android:layout_height="match_parent"
@@ -47,7 +47,7 @@
             android:layout_marginStart="@dimen/_48pxh"
             android:layout_marginTop="@dimen/_10pxv"
             android:layout_weight="0.27" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_2">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtAbcTwo"
                 android:layout_height="match_parent"
@@ -65,7 +65,7 @@
             android:layout_marginStart="@dimen/_48pxh"
             android:layout_marginTop="@dimen/_11pxv"
             android:layout_weight="0.24" android:layout_width="0dp"
-            android:orientation="vertical" style="@style/groupStylecornerRadius_3">
+            android:orientation="vertical" style="@style/groupStylecornerRadius_2">
             <TextView android:ellipsize="end" android:gravity="start"
                 android:id="@+id/txtAbcThree"
                 android:layout_height="match_parent"

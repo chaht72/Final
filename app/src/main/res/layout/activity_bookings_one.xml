@@ -38,7 +38,7 @@
                 android:layout_marginStart="@dimen/_53pxh"
                 android:layout_marginTop="@dimen/_20pxv"
                 android:layout_width="match_parent"
-                android:orientation="horizontal" style="@style/groupStylewhite_1">
+                android:orientation="horizontal" style="@style/groupStylewhite_6">
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtFieldtext"
                     android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 android:layout_marginStart="@dimen/_53pxh"
                 android:layout_marginTop="@dimen/_20pxv"
                 android:layout_width="match_parent"
-                android:orientation="vertical" style="@style/groupStylewhite_2">
+                android:orientation="vertical" style="@style/groupStylewhite_12">
                 <LinearLayout android:id="@+id/linearRowwallrepair"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_15pxh"
@@ -113,7 +113,7 @@
                         android:text="@{bookingsOneVM.bookingsOneModel.txtWallrepair}"
                         style="@style/txtIntermedium14_2" tools:text="@string/lbl_wall_repair"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtFrame370"
+                        android:id="@+id/txtBookbutton"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_142pxh"
                         android:layout_weight="0.52"
@@ -124,8 +124,8 @@
                         android:paddingStart="@dimen/_11pxh"
                         android:paddingTop="@dimen/_4pxv"
                         android:singleLine="true"
-                        android:text="@{bookingsOneVM.bookingsOneModel.txtFrame370}"
-                        style="@style/txtSolidRounded" tools:text="@string/lbl_in_progress"/>
+                        android:text="@{bookingsOneVM.bookingsOneModel.txtBookbutton}"
+                        style="@style/txtSolidRounded_1" tools:text="@string/lbl_in_progress"/>
                 </LinearLayout>
                 <LinearLayout android:gravity="start"
                     android:id="@+id/linearRowstartedateight"
@@ -148,17 +148,17 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{bookingsOneVM.bookingsOneModel.txtStartedatEight}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_started_at_08"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_started_at_08"/>
                         <TextView android:ellipsize="end"
-                            android:id="@+id/txtDate23MarTwo"
+                            android:id="@+id/txtButtonclose"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/_10pxh"
                             android:layout_marginTop="@dimen/_15pxv"
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
-                            android:text="@{bookingsOneVM.bookingsOneModel.txtDate23MarTwo}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_date_23_mar_2"/>
+                            android:text="@{bookingsOneVM.bookingsOneModel.txtButtonclose}"
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_date_23_mar_2"/>
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtTime"
                             android:layout_height="wrap_content"
@@ -168,7 +168,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{bookingsOneVM.bookingsOneModel.txtTime}"
-                            style="@style/txtInterregular12" tools:text="@string/lbl_time_09_19_pm"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/lbl_time_09_19_pm"/>
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtPrice"
                             android:layout_height="wrap_content"
@@ -194,15 +194,15 @@
                                 android:src="@drawable/img_location_bluegray_300"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_location_bluegray_300"/>
                             <TextView android:ellipsize="end"
-                                android:id="@+id/txt38ChestnutStr"
+                                android:id="@+id/txtCloseButton"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_4pxh"
                                 android:layout_weight="0.95"
                                 android:layout_width="0dp"
                                 android:lineSpacingExtra="@dimen/_3pxh"
                                 android:singleLine="true"
-                                android:text="@{bookingsOneVM.bookingsOneModel.txt38ChestnutStr}"
-                                style="@style/txtInterregular12_4" tools:text="@string/msg_38_chestnut_str"/>
+                                android:text="@{bookingsOneVM.bookingsOneModel.txtCloseButton}"
+                                style="@style/txtInterregular12_1" tools:text="@string/msg_38_chestnut_str"/>
                         </LinearLayout>
                     </LinearLayout>
                     <ImageView android:id="@+id/imageDrywallInstall"
@@ -269,7 +269,7 @@
                                 android:lineSpacingExtra="@dimen/_3pxh"
                                 android:singleLine="true"
                                 android:text="@{bookingsOneVM.bookingsOneModel.txtSeedetails}"
-                                style="@style/txtInterregular10" tools:text="@string/lbl_see_details"/>
+                                style="@style/txtInterregular10_2" tools:text="@string/lbl_see_details"/>
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowframe362"
@@ -284,7 +284,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.5"
                             android:layout_width="0dp"
-                            android:orientation="horizontal" style="@style/groupStyleblue_700cornerRadius">
+                            android:orientation="horizontal" style="@style/groupStyleblue_3">
                             <ImageView android:id="@+id/imageCall"
                                 android:layout_height="@dimen/_12pxh"
                                 android:layout_marginBottom="@dimen/_6pxv"
@@ -314,7 +314,7 @@
                             android:drawableStart="@drawable/img_videocamera"
                             android:ellipsize="end"
                             android:hint="@string/lbl_chat"
-                            android:id="@+id/etFrame362"
+                            android:id="@+id/etCatagories"
                             android:inputType="text"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/_69pxh"
@@ -326,9 +326,9 @@
                             android:paddingStart="@dimen/_24pxh"
                             android:paddingTop="@dimen/_6pxv"
                             android:singleLine="true"
-                            android:text="@={bookingsOneVM.bookingsOneModel.etFrame362Value}"
+                            android:text="@={bookingsOneVM.bookingsOneModel.etCatagoriesValue}"
                             android:textColorHint="@color/blue_700"
-                            style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
+                            style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout android:id="@+id/linearRowcancel"
@@ -350,9 +350,9 @@
                         android:paddingStart="@dimen/_30pxh"
                         android:paddingTop="@dimen/_3pxv"
                         android:singleLine="true"
-                        android:text="@string/lbl_cancel2"
+                        android:text="@string/lbl_cancel"
                         android:textAllCaps="false"
-                        style="@style/btnRoundedOutline_2" tools:text="@string/lbl_cancel2"/>
+                        style="@style/btnRoundedOutline_2" tools:text="@string/lbl_cancel"/>
                     <androidx.appcompat.widget.AppCompatButton
                         android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btnFinish"
@@ -377,7 +377,7 @@
                 android:layout_marginStart="@dimen/_53pxh"
                 android:layout_marginTop="@dimen/_13pxv"
                 android:layout_width="match_parent"
-                android:orientation="vertical" style="@style/groupStylewhite_2">
+                android:orientation="vertical" style="@style/groupStylewhite_12">
                 <LinearLayout android:gravity="start"
                     android:id="@+id/linearCard1"
                     android:layout_height="wrap_content"
@@ -428,7 +428,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{bookingsOneVM.bookingsOneModel.txtWallrepairOne}"
-                            style="@style/txtInterregular14_1" tools:text="@string/lbl_wall_repair"/>
+                            style="@style/txtInterregular14" tools:text="@string/lbl_wall_repair"/>
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtPriceOne"
                             android:layout_height="wrap_content"
@@ -438,7 +438,7 @@
                             android:lineSpacingExtra="@dimen/_3pxh"
                             android:singleLine="true"
                             android:text="@{bookingsOneVM.bookingsOneModel.txtPriceOne}"
-                            style="@style/txtIntermedium12_2" tools:text="@string/lbl_125"/>
+                            style="@style/txtIntermedium12_1" tools:text="@string/lbl_125"/>
                         <LinearLayout android:gravity="start"
                             android:id="@+id/linearRowlocationOne"
                             android:layout_height="wrap_content"
@@ -453,7 +453,7 @@
                                 android:src="@drawable/img_location_bluegray_300"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_location_bluegray_300"/>
                             <TextView android:ellipsize="end"
-                                android:id="@+id/txt38ChestnutStrOne"
+                                android:id="@+id/txtLpgout"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="@dimen/_1pxv"
                                 android:layout_marginStart="@dimen/_5pxh"
@@ -461,8 +461,8 @@
                                 android:layout_width="match_parent"
                                 android:lineSpacingExtra="@dimen/_3pxh"
                                 android:singleLine="true"
-                                android:text="@{bookingsOneVM.bookingsOneModel.txt38ChestnutStrOne}"
-                                style="@style/txtInterregular10_2" tools:text="@string/msg_38_chestnut_str"/>
+                                android:text="@{bookingsOneVM.bookingsOneModel.txtLpgout}"
+                                style="@style/txtInterregular10_1" tools:text="@string/msg_38_chestnut_str"/>
                         </LinearLayout>
                         <LinearLayout android:gravity="start"
                             android:id="@+id/linearRowclock"
@@ -491,7 +491,7 @@
                         </LinearLayout>
                     </LinearLayout>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtFrame371"
+                        android:id="@+id/txtMoneytree"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_68pxv"
                         android:layout_weight="0.27"
@@ -502,7 +502,7 @@
                         android:paddingStart="@dimen/_13pxh"
                         android:paddingTop="@dimen/_4pxv"
                         android:singleLine="true"
-                        android:text="@{bookingsOneVM.bookingsOneModel.txtFrame371}"
+                        android:text="@{bookingsOneVM.bookingsOneModel.txtMoneytree}"
                         style="@style/txtSolidRounded_2" tools:text="@string/lbl_completed"/>
                 </LinearLayout>
                 <LinearLayout android:id="@+id/linearColumnbitmapOne"
@@ -561,7 +561,7 @@
                                 android:lineSpacingExtra="@dimen/_3pxh"
                                 android:singleLine="true"
                                 android:text="@{bookingsOneVM.bookingsOneModel.txtSeedetailsOne}"
-                                style="@style/txtInterregular10" tools:text="@string/lbl_see_details"/>
+                                style="@style/txtInterregular10_2" tools:text="@string/lbl_see_details"/>
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowframe362One"
@@ -576,7 +576,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="0.5"
                             android:layout_width="0dp"
-                            android:orientation="horizontal" style="@style/groupStyleblue_700cornerRadius">
+                            android:orientation="horizontal" style="@style/groupStyleblue_3">
                             <ImageView android:id="@+id/imageCallTwo"
                                 android:layout_height="@dimen/_12pxh"
                                 android:layout_marginBottom="@dimen/_6pxv"
@@ -606,7 +606,7 @@
                             android:drawableStart="@drawable/img_videocamera"
                             android:ellipsize="end"
                             android:hint="@string/lbl_chat"
-                            android:id="@+id/etFrame362One"
+                            android:id="@+id/etButonsubmut"
                             android:inputType="text"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/_69pxh"
@@ -618,9 +618,9 @@
                             android:paddingStart="@dimen/_24pxh"
                             android:paddingTop="@dimen/_6pxv"
                             android:singleLine="true"
-                            android:text="@={bookingsOneVM.bookingsOneModel.etFrame362OneValue}"
+                            android:text="@={bookingsOneVM.bookingsOneModel.etButonsubmutValue}"
                             android:textColorHint="@color/blue_700"
-                            style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
+                            style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -631,7 +631,7 @@
                 android:layout_marginStart="@dimen/_53pxh"
                 android:layout_marginTop="@dimen/_13pxv"
                 android:layout_width="match_parent"
-                android:orientation="vertical" style="@style/groupStylewhite_2">
+                android:orientation="vertical" style="@style/groupStylewhite_12">
                 <LinearLayout android:gravity="start"
                     android:id="@+id/linearCard3"
                     android:layout_height="wrap_content"
@@ -681,7 +681,7 @@
                             android:lineSpacingExtra="@dimen/_6pxh"
                             android:singleLine="true"
                             android:text="@{bookingsOneVM.bookingsOneModel.txtWallrepairTwo}"
-                            style="@style/txtInterregular14_1" tools:text="@string/lbl_wall_repair"/>
+                            style="@style/txtInterregular14" tools:text="@string/lbl_wall_repair"/>
                         <TextView android:ellipsize="end"
                             android:id="@+id/txtPriceTwo"
                             android:layout_height="wrap_content"
@@ -691,7 +691,7 @@
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="true"
                             android:text="@{bookingsOneVM.bookingsOneModel.txtPriceTwo}"
-                            style="@style/txtIntermedium12_3" tools:text="@string/lbl_25_hr"/>
+                            style="@style/txtIntermedium12_2" tools:text="@string/lbl_25_hr"/>
                         <LinearLayout android:gravity="start"
                             android:id="@+id/linearRowlocationTwo"
                             android:layout_height="wrap_content"
@@ -706,7 +706,7 @@
                                 android:src="@drawable/img_location_bluegray_300"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_location_bluegray_300"/>
                             <TextView android:ellipsize="end"
-                                android:id="@+id/txt38ChestnutStrTwo"
+                                android:id="@+id/txtLogout"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="@dimen/_1pxv"
                                 android:layout_marginStart="@dimen/_5pxh"
@@ -714,8 +714,8 @@
                                 android:layout_width="match_parent"
                                 android:lineSpacingExtra="@dimen/_3pxh"
                                 android:singleLine="true"
-                                android:text="@{bookingsOneVM.bookingsOneModel.txt38ChestnutStrTwo}"
-                                style="@style/txtInterregular10_2" tools:text="@string/msg_38_chestnut_str"/>
+                                android:text="@{bookingsOneVM.bookingsOneModel.txtLogout}"
+                                style="@style/txtInterregular10_1" tools:text="@string/msg_38_chestnut_str"/>
                         </LinearLayout>
                         <LinearLayout android:gravity="start"
                             android:id="@+id/linearRowclockOne"
@@ -744,7 +744,7 @@
                         </LinearLayout>
                     </LinearLayout>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txtFrame370One"
+                        android:id="@+id/txtCatagorie"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/_68pxv"
                         android:layout_weight="0.27"
@@ -753,8 +753,8 @@
                         android:paddingEnd="@dimen/_19pxh"
                         android:paddingStart="@dimen/_19pxh"
                         android:singleLine="true"
-                        android:text="@{bookingsOneVM.bookingsOneModel.txtFrame370One}"
-                        style="@style/txtSolidRounded_1" tools:text="@string/lbl_pending"/>
+                        android:text="@{bookingsOneVM.bookingsOneModel.txtCatagorie}"
+                        style="@style/txtSolidRounded_3" tools:text="@string/lbl_pending"/>
                 </LinearLayout>
                 <LinearLayout android:gravity="start"
                     android:id="@+id/linearRowminnieramseyTwo"
@@ -781,7 +781,7 @@
                         android:lineSpacingExtra="@dimen/_10pxh"
                         android:singleLine="true"
                         android:text="@{bookingsOneVM.bookingsOneModel.txtMinnieRamseyTwo}"
-                        style="@style/txtInterregular10_2" tools:text="@string/lbl_minnie_ramsey"/>
+                        style="@style/txtInterregular10_1" tools:text="@string/lbl_minnie_ramsey"/>
                 </LinearLayout>
                 <LinearLayout android:gravity="center_horizontal"
                     android:id="@+id/linearCard4"
@@ -863,7 +863,7 @@
                                     android:lineSpacingExtra="@dimen/_3pxh"
                                     android:singleLine="true"
                                     android:text="@{bookingsOneVM.bookingsOneModel.txtSeedetailsTwo}"
-                                    style="@style/txtInterregular10" tools:text="@string/lbl_see_details"/>
+                                    style="@style/txtInterregular10_2" tools:text="@string/lbl_see_details"/>
                             </LinearLayout>
                         </LinearLayout>
                         <LinearLayout
@@ -880,7 +880,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="0.5"
                                 android:layout_width="0dp"
-                                android:orientation="horizontal" style="@style/groupStyleblue_700cornerRadius">
+                                android:orientation="horizontal" style="@style/groupStyleblue_3">
                                 <ImageView
                                     android:id="@+id/imageCallFour"
                                     android:layout_height="@dimen/_12pxh"
@@ -911,7 +911,7 @@
                                 android:drawableStart="@drawable/img_videocamera"
                                 android:ellipsize="end"
                                 android:hint="@string/lbl_chat"
-                                android:id="@+id/etFrame362Two"
+                                android:id="@+id/etButtonsubmit"
                                 android:inputType="text"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_69pxh"
@@ -923,9 +923,9 @@
                                 android:paddingStart="@dimen/_24pxh"
                                 android:paddingTop="@dimen/_5pxv"
                                 android:singleLine="true"
-                                android:text="@={bookingsOneVM.bookingsOneModel.etFrame362TwoValue}"
+                                android:text="@={bookingsOneVM.bookingsOneModel.etButtonsubmitValue}"
                                 android:textColorHint="@color/blue_700"
-                                style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
+                                style="@style/etSolidRoundedOutline_2" tools:ignore="Autofill"/>
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -954,13 +954,13 @@
                         android:lineSpacingExtra="@dimen/_10pxh"
                         android:singleLine="true"
                         android:text="@{bookingsOneVM.bookingsOneModel.txtLanguage}"
-                        style="@style/txtInterregular10_3" tools:text="@string/lbl_cancel"/>
+                        style="@style/txtInterregular10_3" tools:text="@string/lbl_cancel2"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent" style="@style/groupStylewhite_3">
+            android:layout_width="match_parent" style="@style/groupStylewhite_1">
             <LinearLayout android:id="@+id/linearRowiconOne"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_15pxv"

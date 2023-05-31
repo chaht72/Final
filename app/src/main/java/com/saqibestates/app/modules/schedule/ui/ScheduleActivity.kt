@@ -7,7 +7,7 @@ import com.saqibestates.app.appcomponents.base.BaseActivity
 import com.saqibestates.app.databinding.ActivityScheduleBinding
 import com.saqibestates.app.modules.schedule.`data`.model.DatetimeRowModel
 import com.saqibestates.app.modules.schedule.`data`.viewmodel.ScheduleVM
-import com.saqibestates.app.modules.schedulecalendarone.ui.ScheduleCalendarOneActivity
+import com.saqibestates.app.modules.schedulecalendarone.ui.SchedulecalendaroneActivity
 import kotlin.Int
 import kotlin.String
 import kotlin.Unit
@@ -45,7 +45,7 @@ class ScheduleActivity : BaseActivity<ActivityScheduleBinding>(R.layout.activity
   ): Unit {
     when(view.id) {
       R.id.linearColumndate ->  {
-        val destIntent = ScheduleCalendarOneActivity.getIntent(this, null)
+        val destIntent = SchedulecalendaroneActivity.getIntent(this, null)
         startActivity(destIntent)
       }
     }

@@ -88,7 +88,7 @@
                 android:lineSpacingExtra="@dimen/_3pxh"
                 android:singleLine="true"
                 android:text="@{finishVM.finishModel.txtGiveLukasara}"
-                style="@style/txtInterregular14_2" tools:text="@string/msg_give_lukas_a_ra"/>
+                style="@style/txtInterregular14_1" tools:text="@string/msg_give_lukas_a_ra"/>
             <androidx.appcompat.widget.AppCompatRatingBar
                 android:id="@+id/ratingBarRatingbar"
                 android:layout_gravity="center_horizontal"
@@ -121,7 +121,7 @@
         </LinearLayout>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent" style="@style/groupStylewhite_3">
+            android:layout_width="match_parent" style="@style/groupStylewhite_1">
             <LinearLayout android:id="@+id/linearRowicon"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_15pxv"

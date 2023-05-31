@@ -51,7 +51,7 @@
                     android:paddingTop="@dimen/_1pxv"
                     android:singleLine="true"
                     android:text="@{chatsRowModel.txtGroupFive}"
-                    style="@style/txtSolidRounded_3" tools:text="@string/lbl_2"/>
+                    style="@style/txtSolidRounded" tools:text="@string/lbl_2"/>
             </LinearLayout>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtLanguage"
@@ -61,7 +61,7 @@
                 android:lineSpacingExtra="@dimen/_3pxh"
                 android:singleLine="true"
                 android:text="@{chatsRowModel.txtLanguage}"
-                style="@style/txtInterregular14_4" tools:text="@string/lbl_ha_ha_lol"/>
+                style="@style/txtInterregular14_3" tools:text="@string/lbl_ha_ha_lol"/>
         </LinearLayout>
     </LinearLayout>
 </layout>

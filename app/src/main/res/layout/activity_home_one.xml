@@ -97,7 +97,7 @@
                                 android:lineSpacingExtra="@dimen/_3pxh"
                                 android:singleLine="true"
                                 android:text="@{homeOneVM.homeOneModel.txtNewYork}"
-                                style="@style/txtInterregular14" tools:text="@string/lbl_new_york"/>
+                                style="@style/txtInterregular14_7" tools:text="@string/lbl_new_york"/>
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -153,9 +153,9 @@
                             android:paddingStart="@dimen/_30pxh"
                             android:paddingTop="@dimen/_5pxv"
                             android:singleLine="true"
-                            android:text="@string/lbl_cancel2"
+                            android:text="@string/lbl_cancel"
                             android:textAllCaps="false"
-                            style="@style/btnSolidRoundedOutline_1" tools:text="@string/lbl_cancel2"/>
+                            style="@style/btnSolidRoundedOutline_1" tools:text="@string/lbl_cancel"/>
                         <androidx.appcompat.widget.AppCompatButton
                             android:ellipsize="end"
                             android:gravity="center"
@@ -181,7 +181,7 @@
                     android:layout_marginStart="@dimen/_52pxh"
                     android:layout_marginTop="@dimen/_29pxv"
                     android:layout_width="match_parent"
-                    android:orientation="vertical" style="@style/groupStylecornerRadius_12">
+                    android:orientation="vertical" style="@style/groupStylecornerRadius_11">
                     <androidx.recyclerview.widget.RecyclerView
                         android:gravity="start"
                         android:id="@+id/recyclerHomeOne1"
@@ -232,7 +232,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_8pxh"
                             android:text="@{homeOneVM.homeOneModel.txtNothingtocomp}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_nothing_to_comp"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_nothing_to_comp"/>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowstarone"
                         android:layout_gravity="top|end"
@@ -290,7 +290,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_8pxh"
                             android:text="@{homeOneVM.homeOneModel.txtMikewasourHa}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_mike_was_our_ha"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_mike_was_our_ha"/>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowstaroneOne"
                         android:layout_gravity="top|end"
@@ -346,7 +346,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_8pxh"
                             android:text="@{homeOneVM.homeOneModel.txtNothingtocompOne}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_nothing_to_comp"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_nothing_to_comp"/>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowstaroneTwo"
                         android:layout_gravity="top|end"
@@ -404,7 +404,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_8pxh"
                             android:text="@{homeOneVM.homeOneModel.txtNothingtocompTwo}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_nothing_to_comp"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_nothing_to_comp"/>
                     </LinearLayout>
                     <LinearLayout
                         android:id="@+id/linearRowstaroneThree"
@@ -461,7 +461,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_8pxh"
                             android:text="@{homeOneVM.homeOneModel.txtMikewasourHaOne}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_mike_was_our_ha"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_mike_was_our_ha"/>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowstaroneFour"
                         android:layout_gravity="top|end"
@@ -522,7 +522,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_8pxh"
                             android:text="@{homeOneVM.homeOneModel.txtNothingtocompThree}"
-                            style="@style/txtInterregular12" tools:text="@string/msg_nothing_to_comp"/>
+                            style="@style/txtInterregular12_3" tools:text="@string/msg_nothing_to_comp"/>
                     </LinearLayout>
                     <LinearLayout android:id="@+id/linearRowstaroneFive"
                         android:layout_gravity="top|end"
@@ -554,7 +554,7 @@
         </androidx.core.widget.NestedScrollView>
         <FrameLayout android:id="@+id/frameBottombar"
             android:layout_height="wrap_content"
-            android:layout_width="match_parent" style="@style/groupStylewhite_3">
+            android:layout_width="match_parent" style="@style/groupStylewhite_1">
             <LinearLayout android:id="@+id/linearRowicon"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_15pxv"

@@ -29,7 +29,7 @@
                     android:layout_weight="0.83"
                     android:layout_width="0dp" android:singleLine="true"
                     android:text="@{chatsOneRowModel.txtVernonPowell}"
-                    style="@style/txtInterbold18" tools:text="@string/lbl_thomas_lukas2"/>
+                    style="@style/txtInterbold18" tools:text="@string/lbl_thomas_lukas"/>
                 <TextView android:ellipsize="end"
                     android:id="@+id/txtGroupFive"
                     android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
                     android:paddingTop="@dimen/_1pxv"
                     android:singleLine="true"
                     android:text="@{chatsOneRowModel.txtGroupFive}"
-                    style="@style/txtSolidRounded_3" tools:text="@string/lbl_1"/>
+                    style="@style/txtSolidRounded" tools:text="@string/lbl_1"/>
             </LinearLayout>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtAreyouthere"
@@ -55,7 +55,7 @@
                 android:lineSpacingExtra="@dimen/_3pxh"
                 android:singleLine="true"
                 android:text="@{chatsOneRowModel.txtAreyouthere}"
-                style="@style/txtInterregular14_1" tools:text="@string/lbl_are_you_there"/>
+                style="@style/txtInterregular14" tools:text="@string/lbl_are_you_there"/>
         </LinearLayout>
     </LinearLayout>
 </layout>
