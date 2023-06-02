@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="chatsOneVM" type="com.saqibestates.app.modules.chatsone.data.viewmodel.ChatsOneVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumngroupfour"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_50">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearChatsOne"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylegray_50">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearNavtop"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStyledeep_orange_50">
+                <androidx.appcompat.widget.SearchView
+                    android:background="@drawable/rectangle_bg_white_a700_radius_18"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/searchViewGroupFour"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_34pxh"
+                    android:layout_marginStart="@dimen/_34pxh"
+                    android:layout_marginTop="@dimen/_51pxv"
+                    android:layout_width="match_parent"
+                    android:theme="@style/searchViewGroupFour"
+                    app:iconifiedByDefault="false"
+                    app:queryBackground="@android:color/transparent"
+                    app:queryHint="@string/lbl_search_chats" app:searchIcon="@drawable/img_search"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:gravity="center_horizontal"
+                android:id="@+id/recyclerChatsOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_42pxh"
+                android:layout_marginStart="@dimen/_42pxh"
+                android:layout_marginTop="@dimen/_29pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                itemSpace="@{@dimen/_29pxh}" tools:itemCount="11" tools:listitem="@layout/row_chats_one"/>
+            <View
+                android:background="@drawable/rectangle_bg_white_a700_87_border_bluegray_300_87"
+                android:id="@+id/linePathSix"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_2pxv"
+                android:layout_marginEnd="@dimen/_42pxh"
+                android:layout_marginStart="@dimen/_42pxh"
+                android:layout_marginTop="@dimen/_15pxv" android:layout_width="@dimen/_344pxh"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

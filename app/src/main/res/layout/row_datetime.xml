@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="datetimeRowModel" type="com.saqibestates.app.modules.schedule.data.model.DatetimeRowModel"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumndate"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical">
+        <TextView android:ellipsize="end" android:id="@+id/txtDate"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{datetimeRowModel.txtDate}"
+            style="@style/txtInterregular14" tools:text="@string/lbl_date"/>
+        <LinearLayout android:id="@+id/linearRowddmmyy"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal" style="@style/groupStylewhite_4">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtDdmmyy"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginStart="@dimen/_13pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_weight="0.81" android:layout_width="0dp"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="@{datetimeRowModel.txtDdmmyy}"
+                style="@style/txtInterregular14_8" tools:text="@string/lbl_dd_mm_yy"/>
+            <ImageView android:id="@+id/imageCalendar"
+                android:layout_height="@dimen/_16pxh"
+                android:layout_marginBottom="@dimen/_6pxv"
+                android:layout_marginEnd="@dimen/_13pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="@dimen/_16pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_calendar"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_calendar"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
